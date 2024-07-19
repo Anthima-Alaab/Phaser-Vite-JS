@@ -1,0 +1,31 @@
+{
+  "displayName": "Phaser Vite JS",
+  "name": "@anthima/phaser-vite-js",
+  "version": "1.0.0",
+  "description": "تطبيق لأنظمة الألعاب بمحرك Phaser ولغة JavaScript",
+  "scripts": {
+    "dev": "vite --config vite/config.dev.mjs",
+    "build": "vite build --config vite/config.prod.mjs"
+  },
+  "type": "module",
+  "main": "index.html",
+  "homepage": "https://github.com/Anthima-Alaab/Phaser-Vite-JS#README",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthima-Alaab/Phaser-Vite-JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anthima-Alaab/Phaser-Vite-JS/issues"
+  },
+  "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "dependencies": {
+    "anthima": "^1.0.0",
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "terser": "^5.31.0",
+    "vite": "^5.3.1"
+  }
+}

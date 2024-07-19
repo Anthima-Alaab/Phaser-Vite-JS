@@ -1,0 +1,12 @@
+{
+  "caseSensitive": true,
+  "useGitignore": true,
+  "language": "ar,en",
+  "files": [
+    "./{src}/**/*",
+    "**/*.md"
+  ],
+  "words": [
+    "anthima"
+  ]
+}
